@@ -14,5 +14,5 @@ sudo docker build -t docker-rust-rocket-api-alpine .
 
 ## Run the container
 ```
-sudo docker run -p 8000:8000 docker-rust-rocket-api-alpine
+sudo docker run -d -p 8000:8000 docker-rust-rocket-api-alpine
 ```
